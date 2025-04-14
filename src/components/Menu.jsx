@@ -11,9 +11,9 @@ const Menu = () => {
       </h2>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 text-left">
-        {/* Coffee */}
+
         <div className="bg-white/70 rounded-2xl shadow-lg p-6 hover:scale-[1.02] hover:shadow-xl transition-all duration-300">
-          <h3 className="text-2xl font-semibold mb-4">☕ Coffee</h3>
+          <h3 className="text-2xl font-semibold mb-4">Coffee</h3>
           <ul className="space-y-2 text-[17px]">
             <li>Espresso – Rs. 300</li>
             <li>Cappuccino – Rs. 400</li>
@@ -22,9 +22,9 @@ const Menu = () => {
           </ul>
         </div>
 
-        {/* Pastries */}
+
         <div className="bg-white/70 rounded-2xl shadow-lg p-6 hover:scale-[1.02] hover:shadow-xl transition-all duration-300">
-          <h3 className="text-2xl font-semibold mb-4">🥐 Pastries</h3>
+          <h3 className="text-2xl font-semibold mb-4">Pastries</h3>
           <ul className="space-y-2 text-[17px]">
             <li>Chocolate Croissant – Rs. 250</li>
             <li>Banana Bread – Rs. 300</li>
@@ -33,9 +33,9 @@ const Menu = () => {
           </ul>
         </div>
 
-        {/* Specials */}
+
         <div className="bg-white/70 rounded-2xl shadow-lg p-6 hover:scale-[1.02] hover:shadow-xl transition-all duration-300">
-          <h3 className="text-2xl font-semibold mb-4">🌿 Specials</h3>
+          <h3 className="text-2xl font-semibold mb-4">Specials</h3>
           <ul className="space-y-2 text-[17px]">
             <li>Matcha Latte – Rs. 550</li>
             <li>Rose Chai – Rs. 450</li>

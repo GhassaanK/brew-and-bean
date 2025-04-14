@@ -6,7 +6,6 @@ const Contacts = () => {
       <h2 className="text-4xl font-serif text-center text-[#4B2E2B] mb-12">Contact Us</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        {/* Contact Form */}
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h3 className="text-2xl font-semibold text-[#4B2E2B] mb-6">Get In Touch</h3>
           <form action="#" method="POST">
@@ -49,7 +48,6 @@ const Contacts = () => {
           </form>
         </div>
 
-        {/* Contact Information */}
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h3 className="text-2xl font-semibold text-[#4B2E2B] mb-6">Our Contact Info</h3>
           <p className="text-lg text-gray-700 mb-4">Feel free to reach out to us through the following channels:</p>

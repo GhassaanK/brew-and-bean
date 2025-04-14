@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaStar, FaRegStar } from 'react-icons/fa'; // Importing icons for rating
+import { FaStar, FaRegStar } from 'react-icons/fa';
 
 const reviewsData = [
   {
@@ -42,7 +42,6 @@ const Reviews = () => {
             </div>
             <p className="text-gray-600 mb-4">{review.review}</p>
             <div className="flex space-x-1 text-yellow-500">
-              {/* Render filled and empty stars for the rating */}
               {[...Array(5)].map((_, index) => (
                 index < review.rating ? <FaStar key={index} /> : <FaRegStar key={index} />
               ))}

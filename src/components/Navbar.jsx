@@ -19,13 +19,13 @@ const Navbar = () => {
   return (
     <div className='sticky top-0 z-50 backdrop-blur bg-[#4B2E2B]/90 text-[#EADDC8] shadow-lg'>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        {/* Logo */}
+
         <a href="#" className='flex items-center gap-2 text-xl sm:text-3xl font-semibold'>
           <img src={Logo} alt="Brand" className='w-10 rounded-full shadow-md' />
           Brew & Bean Café
         </a>
 
-        {/* Desktop Nav */}
+
         <ul className='hidden sm:flex gap-6 font-medium'>
           {navLinks.map(link => (
             <li key={link.href}>
@@ -39,7 +39,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Mobile Toggle */}
+
         <div className="sm:hidden">
           {mobileOpen ? (
             <X size={28} onClick={toggleMenu} className="cursor-pointer" />
@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Nav */}
+
       <div
         className={`sm:hidden transition-all duration-300 ease-in-out ${
           mobileOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'

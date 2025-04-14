@@ -9,10 +9,10 @@ const Hero = () => {
                 backgroundImage: `url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')`,
             }}
         >
-            {/* Dark semi-transparent overlay */}
+
             <div className="absolute inset-0 bg-black/60 z-0"></div>
 
-            {/* Content */}
+
             <div className="relative z-10 text-white p-8 max-w-3xl rounded-xl">
                 <h1 className="text-4xl md:text-5xl font-serif mb-4">
                     Welcome to <span className="italic">

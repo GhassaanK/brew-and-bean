@@ -7,7 +7,7 @@ const Gallery = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    centerMode: true, // Center the active image
+    centerMode: true,
     focusOnSelect: true,
     responsive: [
       {
@@ -15,7 +15,7 @@ const Gallery = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          centerMode: true,  // Keeps the centering effect on larger screens
+          centerMode: true,
         },
       },
       {
@@ -23,7 +23,7 @@ const Gallery = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          centerMode: false, // Removes centering for smaller screens
+          centerMode: false,
           focusOnSelect: true,
         },
       },
@@ -32,7 +32,7 @@ const Gallery = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerMode: false, // Removes centering for smaller screens
+          centerMode: false,
           focusOnSelect: true,
         },
       },
@@ -44,7 +44,7 @@ const Gallery = () => {
       <h2 className="text-4xl font-serif text-[#4B2E2B] mb-12 tracking-wide">Gallery</h2>
 
       <Slider {...settings} className="gap-x-2" >
-        {/* Image 1 */}
+
         <div className="relative group overflow-hidden rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-105 mx-5 my-4">
           <img
             src="https://images.unsplash.com/photo-1521747116042-5a810fda9664"
@@ -58,7 +58,7 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Image 2 */}
+
         <div className="relative group overflow-hidden rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-105 mx-5 my-4">
           <img
             src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -72,7 +72,7 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Image 3 */}
+
         <div className="relative group overflow-hidden rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-105 mx-5 my-4">
           <img
             src="https://images.unsplash.com/photo-1709870845122-bb30d361f5de?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -86,7 +86,7 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Image 4 */}
+
         <div className="relative group overflow-hidden rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-105 mx-5 my-4">
           <img
             src="https://images.unsplash.com/photo-1550048192-f5416a1f132a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -100,7 +100,7 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Image 5 */}
+
         <div className="relative group overflow-hidden rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-105 mx-5 my-4">
           <img
             src="https://images.unsplash.com/photo-1618411640026-24e40dcde1ab?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -114,7 +114,7 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Image 6 */}
+
         <div className="relative group overflow-hidden rounded-lg shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-105 mx-5 my-4">
           <img
             src="https://images.unsplash.com/photo-1555050338-0abc773f7978?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
